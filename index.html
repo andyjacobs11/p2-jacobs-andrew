@@ -19,16 +19,34 @@
 	</head>
 
 	<body>
+		<div class="alert">
+			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+			Due to local COVID-19 Restrictions, this year's performance has been postponed.
+		</div>
+
 		<div class="hero">
 			<nav>
 				<ul>
-				<li class="current-page">Home</li>
-				<li>Menu</li>
-				<li>About Us</li>
-				<li>Order Now</li>
+				<li><a class="current-page" href="index.html">Home</a></li>
+				<li><a href="index.html">Menu</a></li>
+				<li><a href="index.html">About Us</a></li>
+				<li><a href="index.html">Contact</a></li>
 				</ul>
 			</nav>
 			<h1 id="logo">Middleburg Community Theatre</h1>
+
+			<div id="hamburger">
+				<img src='images/hamburger-icon.png' width="25" height="25">
+			</div>
+	
+			<div class="hide" id="hamburger-menu">
+				<ul>
+					<li><a class="current-page" href="index.html">Home</a></li>
+					<li><a href="index.html">Menu</a></li>
+					<li><a href="index.html">About Us</a></li>
+					<li><a href="index.html">Contact</a></li>
+				</ul>
+			</div>
 		</div>
 
 		<section class="home-main">
