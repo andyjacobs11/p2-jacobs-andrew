@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+	display:block;
+	font-family: 'Alegreya', serif;
+}
+
+nav ul li{
+	display: inline;
+	padding-right: 2%;
+	font-size: 1.2rem;
+}
+
+.hero{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	background-image: url('images/hero.jpg');
+	min-height: 400px;
+	width: 100%;
+	background-size: cover;
+	border-bottom: 5px solid black;
+	
+}
+
+#logo{
+	color:white;
+	font-family: 'Sedgwick Ave Display', cursive;
+	padding: 1% 4% 1% 1%;
+}
+
+nav{
+	color: white;
+	padding: 1% 0 1% 4%;
+	width: 50%;
+	font-family: 'Sedgwick Ave Display', cursive;
+
+}
+
+.current-page{
+	text-decoration: underline;
+	text-decoration-color: #f40000 ;
+}
+
+h2{
+	font-family: 'Sedgwick Ave Display', cursive;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #f40000 ;
+}
+
+h3{
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+p{
+	padding-top: 2%;
+}
+
+.h2-underline{
+	width: 30%;
+	height: 5px;
+}
+
+.home-main{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 3% 0 3%;
+}
+
+.home-left{
+	width: 40%;
+	padding: 2%;
+}
+
+.home-right{
+	width: 40%;
+	padding: 2%;
+}
+
+.home-right iframe{
+	padding-top: 2%;
+}
+
+.home-quote{
+	margin: 0 10% 0 10%;
+	text-align: center;
+}
