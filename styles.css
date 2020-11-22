@@ -94,7 +94,7 @@ p{
 	padding: 2%;
 }
 
-.home-right iframe{
+iframe{
 	padding-top: 2%;
 }
 
@@ -286,6 +286,15 @@ p{
   /*End About Us Scrolling CSS*/
   }
 
+  .direction-main{
+	  text-align: center;
+  }
+ 
+  .direction-h2{
+	  padding-top: 1%;
+  }
+
+
 /*Max Width 928px*/
 
 @media (max-width: 928px){
@@ -326,5 +335,4 @@ p{
 	nav ul li{
 		font-size: 1.8rem;
 	}
-}
 }
