@@ -4,7 +4,7 @@
 	border: 0;
 }
 
-article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary, body {
 	display:block;
 	font-family: 'Alegreya', serif;
 }
@@ -13,6 +13,8 @@ nav ul li{
 	display: inline;
 	padding-right: 2%;
 	font-size: 1.2rem;
+	font-family: 'Sedgwick Ave Display', cursive;
+
 }
 
 a{
@@ -264,9 +266,28 @@ p{
 
   /*End Lightbox CSS*/
   
-
+  /*Start About Us Scrolling CSS*/
+  .progress-container {
+	width: 100%;
+	height: 8px;
+	background: #ccc;
+  }
+  
+  .progress-bar {
+	height: 8px;
+	background: red;
+	width: 0%;
+  }
+  
+  .content {
+	margin: 0 auto;
+	padding: 5%;
+	width: 50%;
+  /*End About Us Scrolling CSS*/
+  }
 
 /*Max Width 928px*/
+
 @media (max-width: 928px){
 
 	#logo{
